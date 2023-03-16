@@ -255,7 +255,7 @@ int num_leaves(Tree const& tree) {
 
 ### Передача self по значению
 
-Передача `self` по значению открывает для нас возможность более естественного выражения желаемой семантики:
+Передача `self` по значению открывает для нас возможность более естественного выражения желаемой семантики, например когда смысл метода заключается в одном лишь возврате модифицированной копии:
 
 ```c++
 struct my_vector : vector<int> {
@@ -305,4 +305,6 @@ public:
 
 Если вы хотите постичь все нюансы — вы можете обратиться к [оригинальному документу](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p0847r6.html).
 
-Также довольно интересы и увлекательны статьи, написанные некоторыми из его авторов: [*«C++23’s Deducing this: what it is, why it is, how to use it»*](https://devblogs.microsoft.com/cppblog/cpp23-deducing-this/) (Sy Brand), [*«Copy-on-write with Deducing this»*](https://brevzin.github.io/about/) (Barry Revzin)
+Также довольно интересы и увлекательны статьи, написанные некоторыми из его авторов: [*«C++23’s Deducing this: what it is, why it is, how to use it»*](https://devblogs.microsoft.com/cppblog/cpp23-deducing-this/) (Sy Brand), [*«Copy-on-write with Deducing this»*](https://brevzin.github.io/about/) (Barry Revzin).
+
+Любите плюсы и будьте счастливы.
